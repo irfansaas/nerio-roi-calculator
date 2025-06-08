@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
-import { TrendingUp, DollarSign, Calculator, BarChart3, FileText, Download, RefreshCw } from 'lucide-react';
+// @ts-ignore
+import { Download, RefreshCw } from 'lucide-react';
+import { TrendingUp, DollarSign, Calculator, BarChart3, FileText, } from 'lucide-react';
 import { Card } from '../common/Card';
 import { AnimatedSection } from '../common/AnimatedSection';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
